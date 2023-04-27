@@ -9,4 +9,4 @@ COPY . /workspace/
 
 RUN pip install -r /workspace/requirements.txt
 
-CMD ["python", "/workspace/main.py"]
+CMD ["streamlit", "run", "bg_remove.py", "--server.port=8501", "--server.address=0.0.0.0"]
