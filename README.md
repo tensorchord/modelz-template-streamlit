@@ -1,8 +1,8 @@
-# Modelz Gradio Template
+# Modelz Streamlit Template
 
-This is a template for creating a [Gradio](https://gradio.app/) app on [Modelz](https://modelz.ai/).
+This is a template for creating a [Streamlit](https://streamlit.io/) app on [Modelz](https://modelz.ai/).
 
-Building an Gradio app could be straightforward. You will need to provide three key components:
+Building an Streamlit app could be straightforward. You will need to provide three key components:
 
 - A `main.py` file: This file contains the code for making predictions.
 - A `requirements.txt` file: This file lists all the dependencies required for the server code to run.

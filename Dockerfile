@@ -5,7 +5,7 @@ ENV GRADIO_SERVER_PORT=${GRADIO_SERVER_PORT}
 
 WORKDIR /workspace
 
-ADD requirements.txt main.py /workspace/
+COPY . /workspace/
 
 RUN pip install -r /workspace/requirements.txt
 
